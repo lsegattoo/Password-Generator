@@ -79,7 +79,7 @@ function generatePassword(size, charTypes) {
 function message(text, status = "success") {
   Toastify({
     text: text,
-    duration: 8000,
+    duration: 2000,
     style: {
       background: status === "success" ? "#84cc16" : "#dc2626",
       boxShadow: "none",
